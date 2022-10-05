@@ -10,6 +10,7 @@ import java.util.Date;
 
 public class SampleServlet extends HttpServlet {
 
+    @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
         Date date = new Date();
